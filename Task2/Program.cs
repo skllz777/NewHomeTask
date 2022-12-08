@@ -10,7 +10,7 @@ void InputArray(int[] array)
 void ReleaseArray(int[] array)
 {
     int sumofOdd = 0;
-    for (int i = 0; i < array.Length; i+=2)
+    for (int i = 1; i < array.Length; i+=2)
     {
      sumofOdd = sumofOdd + array[i];   
     }
